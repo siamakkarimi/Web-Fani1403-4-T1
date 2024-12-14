@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background-color: #272d35;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Navbar */
+.navbar {
+  background: rgb(255, 0, 217);
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  width: 81px;
+  height: 32px;
+}
+
+.navbar .main-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: var(--secondary-color);
+}
+
+.navbar i {
+  font-size: 1.5rem;
+}
+.section {
+  margin: 4rem 0;
+}
+
+/* Details */
+.details .details-flex {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.details img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.details h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.details .heading-border {
+  margin: 0;
+}
+
+.details p {
+  margin: 1rem 0 2rem;
+}

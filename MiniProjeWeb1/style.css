@@ -1,0 +1,27 @@
+/* body {
+  background-color: black;
+} */
+
+/* p {
+  color: white;
+} */
+
+.primary {
+  color: blueviolet;
+}
+.secondary {
+  color: blue;
+}
+
+#header {
+  text-align: center;
+}
+
+.title-site {
+  color: blueviolet;
+  text-align: center;
+}
+
+#header h1 {
+  color: red;
+}
